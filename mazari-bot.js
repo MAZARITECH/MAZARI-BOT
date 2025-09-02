@@ -2,7 +2,7 @@
  * MAZARI BOT - Professional WhatsApp Bot by Mazari Technical
  * 
  * 1. Install Node.js (Termux: pkg install nodejs)
- * 2. Install Baileys: npm install @whiskeysockets/baileys
+ * 2. Install Baileys: npm install @whiskeysockets/baileys axios moment-timezone
  * 3. Run: node mazari-bot.js
  * 
  * GitHub par sirf is file ko upload karen!
@@ -353,9 +353,6 @@ async function startBot() {
       await sock.updateProfilePicture(sender, media);
       await sock.sendMessage(sender, { text: 'Group profile picture updated!' });
     }
-
-    // ===== WELCOME (Group) =====
-    // Baileys does not support group participant events in upsert, but you can add this in group-participants.update event.
 
     // ===== BROADCAST (Owner Only) =====
     if (config.features.broadcast && /^\.broadcast (.+)$/i.test(text) && fromMe) {
