@@ -18,7 +18,7 @@ const config = {
   ownerName: "MAZARI TECHNICAL",
   botName: "MAZARI BOT",
   youtube: "https://youtube.com/@mazari_technical304?si=lf5R8QjK-WSm3nVJ",
-  whatsapp: "https://wa.me/+923443895572?text=𝐌𝐀𝐙𝐀𝐑𝐈-𝐓𝐄𝐂𝐇-🤌🤍",
+  whatsapp: "https://wa.me/+923443895572",
   telegram: "https://t.me/Mazari180",
   instagram: "https://www.instagram.com/itx_mazari_hacker?igsh=enRudGowYjVidHAy",
   channel: "https://whatsapp.com/channel/0029Vb6GUj8BPzjOWNfnhm1B",
